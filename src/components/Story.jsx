@@ -59,7 +59,7 @@ const Story = () => {
                       onMouseEnter={handleMouseLeave}
                       onMouseUp={handleMouseLeave}
                       onMouseMove={handleMouseMove} 
-                      src="/img/entrance.webp" 
+                      src="/Cool-Website/entrance.webp" 
                       alt="entrance" 
                       className='object-contain' 
                     />
