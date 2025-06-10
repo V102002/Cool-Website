@@ -63,7 +63,7 @@ const Navbar = () => {
 
          {/* //Left side of Navbar */}
           <div className='flex items-center gap-7'>
-            <img src={"/dist/img/logo.png"} alt="logo" className='w-10'/>
+            <img src="/Cool-Website/img/logo.png" alt="logo" className='w-10'/>
             <Button
               id="product-button" title="Products" rightIcon={<TiLocationArrow/>}
               containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
@@ -85,7 +85,7 @@ const Navbar = () => {
             
             {/* Music Button */}
             <button className='ml-10 flex items-center space-x-0.5' onClick={toggleAudioIndicatior}>
-              <audio ref={audioElementRef} className= "hidden" src="/dist/audio/loop.mp3" loop/>
+              <audio ref={audioElementRef} className= "hidden" src="/Cool-Website/audio/loop.mp3" loop/>
                 {/* Showing audio lines */}
                 {[1,2,3,4].map((bar)=>(
                   <div key={bar} className={`indicator-line ${isIndicatorActive ? 'active' : ''}`} style={{animationDelay: `${bar*0.1}s`}} />
