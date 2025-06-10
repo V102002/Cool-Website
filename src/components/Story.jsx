@@ -59,7 +59,7 @@ const Story = () => {
                       onMouseEnter={handleMouseLeave}
                       onMouseUp={handleMouseLeave}
                       onMouseMove={handleMouseMove} 
-                      src={`${import.meta.env.BASE_URL}/entrance.webp`} 
+                      src="/dist/img/entrance.webp" 
                       alt="entrance" 
                       className='object-contain' 
                     />
