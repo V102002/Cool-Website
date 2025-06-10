@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Cool-Website/', // 👈 add this line
+  base: '/Cool-Website/', 
 });
